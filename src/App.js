@@ -2,6 +2,8 @@ import React from 'react';
 import EffectComponent from './useEffect/index';
 import IdComponent from './useId/index';
 import LayoutEffectComponent from './useLayoutEffect/index'
+import MemoComponent from './useMemo/index'
+
 
 import './App.css'; 
 
@@ -21,6 +23,10 @@ export default function App() {
       <div className="content">
       <p>3. useLayoutEffect , similar to useEffect, that fires before the browser repaints the screen </p>
       <LayoutEffectComponent/>
+      </div>
+      <div className="content">
+      <p>4. useMemo, cache the result of a calculation between re-renders </p>
+      <MemoComponent/>
       </div>
     </div>
   );

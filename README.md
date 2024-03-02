@@ -17,6 +17,9 @@ In this repository, you'll find components showcasing different React hooks and 
 3. **LayoutEffectComponent**
    -`useLayoutEffect` hook, which is similar to `useEffect` but fires before the browser repaints the screen.
 
+4. **MemoComponent**
+   -`useMemo` hook, cache the result of a calculation between re-renders.
+
 ## Getting Started
 
 To run the components locally, follow these steps:
