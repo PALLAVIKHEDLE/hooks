@@ -1,0 +1,11 @@
+.box {
+    width: 200px;
+    height: 200px;
+    background-color: lightblue;
+    margin-top: 20px; 
+  }
+  
+  button {
+    margin-top: 10px; 
+  }
+  
