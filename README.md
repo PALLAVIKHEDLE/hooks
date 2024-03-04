@@ -23,6 +23,9 @@ In this repository, you'll find components showcasing different React hooks and 
 5. **RefComponent**
    -`useRef` hook, returns a ref object with a single current property initially set to the initial value you provided.
 
+6. **ReducerComponent**
+   - `useReducer` hook, provides a way to manage complex state logic in functional components. It is an alternative to useState that allows for more complex state management scenarios.
+
 ## Getting Started
 
 To run the components locally, follow these steps:
