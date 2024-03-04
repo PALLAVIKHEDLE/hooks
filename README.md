@@ -26,6 +26,12 @@ In this repository, you'll find components showcasing different React hooks and 
 6. **ReducerComponent**
    - `useReducer` hook, provides a way to manage complex state logic in functional components. It is an alternative to useState that allows for more complex state management scenarios.
 
+`useTransition && useDeferredValue both hooks help improve the user experience in different ways`
+7. **TransitionComponent**
+   -  `useTransition` Focuses on prioritizing updates.
+8. **DeferredComponent**
+   -`useDeferredValue` is all about delaying them until the right moment.
+
 ## Getting Started
 
 To run the components locally, follow these steps:
