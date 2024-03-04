@@ -3,6 +3,8 @@ import EffectComponent from './useEffect/index';
 import IdComponent from './useId/index';
 import LayoutEffectComponent from './useLayoutEffect/index'
 import MemoComponent from './useMemo/index'
+// import DebugComponent from './useDebugValue/index'
+import RefComponent from './useRef/index'
 
 
 import './App.css'; 
@@ -27,6 +29,16 @@ export default function App() {
       <div className="content">
       <p>4. useMemo, cache the result of a calculation between re-renders </p>
       <MemoComponent/>
+      </div>
+      {/* <div className="content">
+      <p>5. useDebugValue, is a React hook that allows you to display a label for custom hooks in React DevTools. </p>
+      <DebugComponent/>
+      </div> */}
+      <div className="content">
+      <p>6. useRef usecases , 
+        1.Store and persist value between renders.
+        2.direct access to any DOM node </p>
+      <RefComponent/>
       </div>
     </div>
   );
